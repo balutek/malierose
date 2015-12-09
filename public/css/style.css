@@ -1,2 +1,37 @@
-h1 {
-  color: #bada55; }
+body {
+  color: #FFA500; }
+  body .navbar {
+    margin-bottom: 0;
+    border-radius: 0; }
+    body .navbar .nav.navbar-nav {
+      margin: 0 auto;
+      float: none;
+      display: table;
+      table-layout: fixed; }
+      body .navbar .nav.navbar-nav .dropdown-menu {
+        background-color: #666; }
+      body .navbar .nav.navbar-nav li a h3 {
+        margin-top: 10px;
+        color: #FFA500; }
+      body .navbar .nav.navbar-nav li a h4 {
+        color: #FFA500; }
+  body .carousel .carousel-inner {
+    background-color: #666;
+    height: 600px; }
+    body .carousel .carousel-inner .item {
+      height: 100%; }
+      body .carousel .carousel-inner .item img {
+        height: 100%; }
+  body .carousel .left.carousel-control span.glyphicon {
+    color: #FFA500; }
+  body .carousel .right.carousel-control span.glyphicon {
+    color: #FFA500; }
+  body .carousel .carousel-indicators li {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 20px;
+    margin: 3px;
+    width: 20px; }
+    body .carousel .carousel-indicators li.active {
+      background-color: #FFA500; }
