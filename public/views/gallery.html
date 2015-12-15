@@ -1,3 +1,6 @@
-<div>
-    Galeria
-</div>
+<uib-carousel interval="carouselInterval" no-wrap="noWrapSlides">
+    <uib-slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <!--<div class="carousel-img" style="background: url('{{slide.image}}') no-repeat scroll center center"></div>-->
+    </uib-slide>
+</uib-carousel>

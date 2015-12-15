@@ -1,7 +1,6 @@
-/**
- * Created by pawel on 01.12.15.
- */
 module.exports = function ($scope) {
+
+  $scope.pageClass = "gallery";
   $scope.carouselInterval = 5000000000;
   $scope.noWrapSlides = false;
 
