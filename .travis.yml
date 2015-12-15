@@ -1,3 +1,7 @@
+before_install:
+  - gem install sass
+  - gem install compass
+
 before_script:
   - npm install
 script: gulp
